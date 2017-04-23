@@ -4,10 +4,13 @@ require('electron-reload')(__dirname);
 
 const path = require('path');
 const url = require('url');
+var fs = require('fs');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win;
+
+global.movies = JSON.parse(fs.readFileSync(path.join(__dirname, 'movies.json'), 'utf8'));
 
 function createWindow() {
     win = new BrowserWindow({ width: 800, heigth: 600 });
