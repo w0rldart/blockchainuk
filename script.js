@@ -14,7 +14,8 @@ $(document).ready(() => {
                         + '<a href="movie.html"><img src="' + movie.cover + '"></a>'
                     + '</div>'
                 + '</div>'
-                + '<span class="title">' + movie.title + '</span>'
+                + '<h2 class="title">' + movie.title + '</h2>'
+                + '<h3 class="year">' + movie.year + '</h3>'
             + '</div>';
 
         $('#movies').append(template);
