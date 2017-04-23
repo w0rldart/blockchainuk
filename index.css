@@ -1,0 +1,28 @@
+.movie .title {
+    font-size: 16px;
+    height: auto;
+    margin: 6px 0 4px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 2px;
+}
+
+.movie .year {
+    font-size: 12px;
+    margin-top: 0;
+    color: #888;
+}
+
+.movie .card .card-image img {
+    max-height: 364px;
+    min-height: 364px;
+}
+
+.movie .card .card-image img:hover {
+    border: 2px solid #e3f2fd;
+    border-radius: 4px;
+    -webkit-transition: all 0.10s ease;
+    transition: all 0.10s ease;
+}
