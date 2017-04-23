@@ -1,0 +1,9 @@
+.movie .title {
+    height: auto;
+    margin: 6px 0 4px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 2px;
+}
